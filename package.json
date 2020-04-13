@@ -1,0 +1,19 @@
+{
+  "name": "someonediscordbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A discord bot that @someone",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2",
+    "@types/node": "^12.12.11",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn src/bot.ts"
+  },
+  "author": "topgaming22",
+  "license": "ISC"
+}
